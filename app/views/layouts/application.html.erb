@@ -7,16 +7,10 @@
 	  <%= csrf_meta_tags %>
 	</head>
 	<body>
-		<%= link_to "Home", root_path %>
-		<%= link_to "About Us", about_path %>
+		<%= render 'layouts/header' %>
 
 		<%= yield %>
 
-		<div class="footer">
-			<small>
-				<%= link_to "One Month Rails", "http://onemonthrails.com" %>
-				by <%= link_to "Tyler Clemens", "https://github.com/TClemens" %>
-			</small>
-		</div>
+		<%= render 'layouts/footer' %>
 	</body>
 </html>
