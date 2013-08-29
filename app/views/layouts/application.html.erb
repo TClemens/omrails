@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Omrails</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+	<head>
+	  <title>Omrails</title>
+	  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+	  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+	  <%= csrf_meta_tags %>
+	</head>
+	<body>
+		<%= link_to "Home", root_path %>
+		<%= link_to "About Us", about_path %>
 
-<%= yield %>
+		<%= yield %>
 
-</body>
+		<div class="footer">
+			<small>
+				<%= link_to "One Month Rails", "http://onemonthrails.com" %>
+				by <%= link_to "Tyler Clemens", "https://github.com/TClemens" %>
+			</small>
+		</div>
+	</body>
 </html>
