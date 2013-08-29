@@ -14,7 +14,9 @@ body {
 
 @import 'bootstrap-responsive';
 
+
 .navbar-inner {
+	/*Hides the shadow bar under the navbar*/
 	@include box-shadow(none !important);
 	border: 0;
 }
