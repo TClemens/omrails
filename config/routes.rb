@@ -1,5 +1,6 @@
 Omrails::Application.routes.draw do
   
+  get "users/show"
   resources :pins
 
   devise_for :users
@@ -9,6 +10,7 @@ Omrails::Application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'pins#index'
   get 'about' => 'pages#about'
+  get 'users/:id' => 'users#show'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
