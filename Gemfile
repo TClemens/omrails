@@ -6,6 +6,9 @@ gem "simple_form", "~> 3.0.0.rc"
 gem 'paperclip'
 gem 'aws-sdk'
 gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 # Use SCSS for stylesheets
