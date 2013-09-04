@@ -27,10 +27,6 @@ GEM
       tzinfo (~> 0.3.37)
     arel (4.0.0)
     atomic (1.1.13)
-    aws-s3 (0.6.3)
-      builder
-      mime-types
-      xml-simple
     aws-sdk (1.16.1)
       json (~> 1.4)
       nokogiri (< 1.6.0)
@@ -147,20 +143,18 @@ GEM
     uuidtools (2.1.4)
     warden (1.2.3)
       rack (>= 1.0)
-    xml-simple (1.1.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  aws-s3
   aws-sdk
   bootstrap-sass (~> 2.3.2.2)
   coffee-rails (~> 4.0.0)
   devise
   jbuilder (~> 1.2)
   jquery-rails
-  paperclip (~> 3.4.2)
+  paperclip
   pg
   pry-rails
   rails (= 4.0.0)
