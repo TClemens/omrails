@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 gem 'devise'
 gem "simple_form", "~> 3.0.0.rc"
-gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
+gem 'paperclip', '~> 3.4.2'
 gem 'aws-sdk'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
