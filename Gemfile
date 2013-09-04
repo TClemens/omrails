@@ -5,6 +5,7 @@ gem 'devise'
 gem "simple_form", "~> 3.0.0.rc"
 gem 'paperclip', '~> 3.4.2'
 gem 'aws-sdk'
+gem 'aws-s3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 # Use SCSS for stylesheets
