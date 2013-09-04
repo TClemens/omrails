@@ -14,9 +14,6 @@ body {
 
 @import 'bootstrap-responsive';
 
-.container {
-	padding-bottom: 3em;
-}
 
 .navbar-inner {
 	/*Hides the shadow bar under the navbar*/
@@ -25,12 +22,7 @@ body {
 }
 
 .footer {
-	
-	clear: both;
-	position: relative;
-	z-index: 10;
-	height: 3em;
-	margin-top: -3em;
+	margin-top: 50px;
 	color: $grayLight;
 	a {
 		color: $gray;
