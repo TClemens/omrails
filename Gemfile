@@ -8,7 +8,7 @@ gem 'aws-sdk'
 gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
-gem 'newrelic_rpm'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
@@ -29,6 +29,7 @@ gem 'bootstrap-sass', '~> 2.3.2.2'
 group :production do
 	# postgresql
 	gem 'pg' 
+	gem 'newrelic_rpm'
 end
 
 group :development, :test do
