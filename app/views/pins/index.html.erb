@@ -1,7 +1,9 @@
 <%= render 'pages/home' %>
 
 <div id="pins">
-  <%= render @pins %>
+	<% cache(@pins) do %>
+  	<%= render @pins %>
+  <% end %>
 </div>
 
 <%= will_paginate @pins %>
