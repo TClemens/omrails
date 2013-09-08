@@ -35,6 +35,9 @@ end
 group :development, :test do
 	gem 'sqlite3'
 	gem 'pry-rails'
+	gem 'newrelic_rpm'
+	gem 'ruby-prof'
+	gem 'quiet_assets'
 end
 
 group :doc do
